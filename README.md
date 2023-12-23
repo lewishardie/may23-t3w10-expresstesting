@@ -8,13 +8,18 @@
 ### Install express
 => npm i express
 
-### Install nodemon, and save as a dev dependancy
+### Install nodemon, and save as a dev dependancy(--save-dev)
 => npm i nodemon --save-dev
 
+set package.json dependancies
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
 
-package.json
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+### Install jest and supertest for testing and save as a dev dependancy(--save-dev)
+=> npm i jest supertest --save-dev
+
+set package.json dependancies
+    "test": "jest"
 
 ## Goals
 
