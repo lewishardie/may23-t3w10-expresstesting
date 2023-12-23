@@ -23,4 +23,7 @@ set package.json dependancies
 
 ## Goals
 
+next year: 
+    mongoDB
 
+First Lesson on 16th
